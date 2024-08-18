@@ -96,7 +96,7 @@ services:
 deployments:
   name: blue-app
   label: blue-app
-  replicas: 2
+  replicas: 3
   container:
     name: my-blue-app
     image: adamtravis/rollouts:blue
@@ -104,4 +104,12 @@ deployments:
       name: http 
       containerPort: 8080
   
+namespace:
+  name: default 
+
+services:
+  name: blue-service
+  labels: blue-app
+  port: 8080
+  targetPort: 8080
 

@@ -3,12 +3,12 @@ entries:
   tower-batch:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-19T21:02:38.4586768-07:00"
+    created: "2024-08-17T20:47:03.248243-04:00"
     description: A Helm chart for Kubernetes
-    digest: 60265cf2627e7772f10426d4f1431d782bb7590996aa8e02631da739699075e8
+    digest: ac33daf0eea59888722d503ab416f006f33d4cd5acee4d49b0a87a1e8bb4440f
     name: tower-batch
     type: application
     urls:
     - tower-batch-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-19T21:02:38.4550463-07:00"
+generated: "2024-08-17T20:47:03.247061-04:00"
